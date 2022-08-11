@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    cursor: pointer
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 20px rgba(159, 159, 159, 0.65);
+    z-index: 5;
+}
+
+header a {
+    text-decoration: none;
+    color: #777777;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+/* main .banner {
+    display: flex
+} */
+
+main .banner img{
+    width: 100%;
+}
+
+main .your-style {
+    /* background-color: lightblue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+main .your-style h1 {
+    text-transform: lowercase;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+main .your-style div img {
+    padding: 20px
+}
+
+main .your-style div img:first-child {
+    padding-bottom: 96px;
+}
+
+main .offer-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #C2185B;
+    padding: 60px
+    /* height: 480px; */
+}
+
+main .offer-products h1 {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 44px;
+    padding-bottom: 30px;
+}
+
+main .offer-products .card-product {
+    display: flex;
+    flex-direction: row;
+}
+
+main .offer-products .card-product article {
+    background-color: white;
+    margin: 0 10px;
+    padding-bottom: 30px
+}
+
+main .offer-products .card-product article img {}
+
+main .offer-products .card-product article p {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 10px 0 10px;
+}
+
+main .offer-products .card-product article span {
+    padding: 0 10px;
+}
+
+main .news {
+    /* background-color: lightgoldenrodyellow; */
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px
+}
+
+main .news div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+main .news div h1 {
+    text-transform: uppercase;
+    font-size: 39px;
+}
+
+main .news div button {
+    background-color: #C2185B;
+    color: white;
+    text-transform: lowercase;
+    font-size: 39px;
+    border: none;
+    width: 65%;
+    padding: 30px;
+    margin: 10px 0 30px 0;
+    cursor: pointer
+}
+
+main .news div img {}
+
+main .news img {}
+
+footer .container{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 15px;
+    background-color: #C2185B;
+    padding: 50px;
+    /* width: 100%; */
+    justify-content: space-around;
+    color: white;
+    line-height: 27px;
+}
+
+footer .logo-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+    text-align: justify;
+}
+
+footer .institucional, .categorias {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
+    /* margin: 0 auto; */
+}
+
+footer .institucional ul, .categorias ul {
+    list-style: none;
+    cursor: pointer;
+}
+
+footer .institucional h3, .categorias h3 {
+    line-height: 50px;
+}
